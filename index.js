@@ -19,4 +19,3 @@ function findBy(array,findFn){
     console.log(findFn(array[i]))
 }
 }
-
