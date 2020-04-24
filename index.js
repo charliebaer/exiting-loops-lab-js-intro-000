@@ -18,3 +18,5 @@ function findBy(array,findFn){
   for(let i=0;i<array.length;i++){
     console.log(findFn(array[i]))
 }
+}
+
