@@ -16,7 +16,7 @@ return(array);
 }
 function findBy(array,findFn){
   for(let i=0;i<array.length;i++){
-    if(array[i] == findFn(array[i])) return(array[i]);
+    if(findFn(array[i])) return(array[i]);
     }
 return(null);
 }
